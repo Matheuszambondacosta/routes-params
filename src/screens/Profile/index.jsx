@@ -6,7 +6,7 @@ export default function Profile({ route }) {
   const { user } = route.params
   return (
     <View style={styles.container}>
-      <Title title={'Profile today is beutiful day'} />
+      <Title style={styles.title} title={'Profile today is beutiful day'} />
       <Title title={`Name: ${user.name}`} />
       <Title title={`Email: ${user.email}`} />
       <Title title={`Age: ${user.age}`} />
