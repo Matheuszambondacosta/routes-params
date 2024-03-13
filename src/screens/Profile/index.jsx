@@ -7,9 +7,11 @@ export default function Profile({ route }) {
   return (
     <View style={styles.container}>
       <Title title={'Profile today is beutiful day'} />
-      <Text>Name: {user.name}</Text>
-      <Text>Email: {user.email}</Text>
-      <Text>Age: {user.age}</Text>
+      <Title title={`Name: ${user.name}`} />
+      <Title title={`Email: ${user.email}`} />
+      <Title title={`Age: ${user.age}`} />
+
+
 
     </View>
   )
